@@ -1,18 +1,18 @@
 export const ItemsArray = [
   {
     title: "HOME",
-    url: "/",
+    url: "/space-tourism-website",
   },
   {
     title: "DESTINATION",
-    url: "/destination",
+    url: "/space-tourism-website/destination",
   },
   {
     title: "CREW",
-    url: "/crew",
+    url: "/space-tourism-website/crew",
   },
   {
     title: "TECHNOLOGY",
-    url: "/technology",
+    url: "/space-tourism-website/technology",
   },
 ];

@@ -4,7 +4,7 @@ const ExploreSpaceButton = () => {
   const [isHover, setIsHover] = useState(false);
 
   return (
-    <NavLink to="/destination">
+    <NavLink to="destination">
       <div className="w-[150px] h-[150px] md:w-[342px] md:h-[342px] lg:w-[450px] lg:h-[450px] relative">
         <button
           onMouseEnter={() => setIsHover(true)}

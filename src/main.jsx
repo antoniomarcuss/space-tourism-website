@@ -17,11 +17,11 @@ import Tecnology from "./pages/Tecnology/index.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/" element={<Layout />}>
+      <Route path="/space-tourism-website" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="/destination" element={<Destination />} />
-        <Route path="/crew" element={<Crew />} />
-        <Route path="/technology" element={<Tecnology />} />
+        <Route path="destination" element={<Destination />} />
+        <Route path="crew" element={<Crew />} />
+        <Route path="technology" element={<Tecnology />} />
       </Route>
     </Route>
   )
