@@ -14,19 +14,10 @@ import Crew from "./pages/Crew/index.jsx";
 import Layout from "./components/Layout/index.jsx";
 import Tecnology from "./pages/Tecnology/index.jsx";
 
-let hostname = window && window.location && window.location.hostname;
-let basename = "";
-
-if (hostname.includes("github.io")) {
-  basename = "/space-tourism-website";
-} else if (hostname.includes("vercel.app")) {
-  basename = "";
-}
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path={basename} element={<Layout />}>
+      <Route path="/space-tourism-website" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="destination" element={<Destination />} />
         <Route path="crew" element={<Crew />} />
