@@ -35,5 +35,17 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "vite": "^5.2.0"
+  },
+  "vercel": {
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/space-tourism-website"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
   }
 }
