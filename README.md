@@ -1,8 +1,8 @@
-# React + Vite
+# Projeto Space Tourism Website
+Neste projeto, implementei uma solução para o desafio proposto pela plataforma Frontend Mentor. O desafio consistia em desenvolver um site de turismo espacial multi-página. Para isso, empreguei diversas tecnologias e ferramentas:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React: Utilizei o React como a principal tecnologia para este projeto, permitindo a reutilização eficiente dos componentes.
+Tailwind CSS: Esta ferramenta foi usada para criar o layout e garantir a responsividade do site.
+JavaScript: A linguagem JavaScript foi empregada para possibilitar a interação do usuário com o site.
+React Router DOM: Esta biblioteca do React foi utilizada para gerenciar as rotas das páginas do site.
+Dessa forma, consegui desenvolver um projeto robusto e interativo, que atendeu aos requisitos do desafio proposto.
