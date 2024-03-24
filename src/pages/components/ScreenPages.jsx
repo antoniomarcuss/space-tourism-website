@@ -7,7 +7,7 @@ const ScreenPage = ({ desktop, tablet, mobile }) => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
-    <div className=" fixed  right-0 left-0 max-w-[1400px] m-auto  ">
+    <div className=" fixed  right-0 left-0  m-auto  ">
       {isDesktopOrLaptop && (
         <div>
           <img
