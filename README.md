@@ -6,3 +6,4 @@ Tailwind CSS: Esta ferramenta foi usada para criar o layout e garantir a respons
 JavaScript: A linguagem JavaScript foi empregada para possibilitar a interação do usuário com o site.
 React Router DOM: Esta biblioteca do React foi utilizada para gerenciar as rotas das páginas do site.
 Dessa forma, consegui desenvolver um projeto robusto e interativo, que atendeu aos requisitos do desafio proposto.
+Também usei o Figma-Dev como protótipo para o desenvolvimento do layout. Dessa forma, consegui desenvolver um projeto robusto e interativo
