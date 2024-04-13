@@ -33,11 +33,11 @@ const ShowButtonSelected = ({
         {technology.map(({ name, description }, index) => (
           <div key={index}>
             {showDataTechnology.name === name && (
-              <div className="flex flex-col justify-center items-center  mt-7 lg:w-[470px] lg:h-[303px] gap-6 lg:items-start">
+              <div className="flex flex-col justify-center items-center  mt-7 lg:w-[550px] lg:h-[303px] gap-6 lg:items-start ">
                 <h2 className="text-center text-ice text-sm font-normal font-['Barlow Condensed'] tracking-widest md:text-base md:tracking-[2.70px] lg:text-start ">
                   THE TERMINOLOGY…
                 </h2>
-                <h1 className="w-[327px] text-center text-white text-2xl font-normal font-['Bellefair'] uppercase md:w-[457px] md:text-[40px] lg:text-[56px] lg:w-full lg:text-start">
+                <h1 className="w-[347px] text-center text-white text-2xl font-normal font-['Bellefair'] uppercase md:w-[457px] md:text-[40px] lg:text-[56px] lg:w-full lg:text-start">
                   {name}
                 </h1>
                 <div className="w-[327px] text-center text-ice text-[15px] font-normal font-['Barlow'] leading-[25px] md:w-[458px] md:text-base  md:leading-7 lg:w-[444px] lg:text-lg lg:leading-loose lg:text-start">
