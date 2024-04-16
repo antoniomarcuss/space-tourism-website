@@ -23,7 +23,7 @@ const Header = () => {
           />
           <div className="lg:w-[473px] lg:h-px lg:opacity-25 lg:bg-white top-16 absolute left-20" />
         </div>
-        <div className="w-6 h-[21px] ">
+        <div className="w-6 h-[21px]  ">
           <button type="button" onClick={handleClick}>
             <img
               src={isBurgerVisible ? close : burger}

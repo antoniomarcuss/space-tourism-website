@@ -11,13 +11,13 @@ const Carousel = ({ setShowDataDestination, sliderRef, destinations }) => {
     afterChange: (current) => setShowDataDestination(destinations[current]),
   };
   return (
-    <div className="mt-10 lg:w-[761px] lg:pt-6 ">
-      <Slider ref={sliderRef} {...settings}>
+    <div className="mt-10 lg:mt-0 lg:w-[500px]   lg:pt-6  lg:ml-10 ">
+      <Slider ref={sliderRef} {...settings} className="">
         {destinations.map(({ images }, index) => (
           <div key={index} className=" ">
             <img
               src={images}
-              className="w-[259px] h-[259px] md:w-[457px] md:h-[457px] m-auto "
+              className="w-[259px] h-[259px] md:w-[457px] md:h-[457px] m-auto  "
             />
           </div>
         ))}

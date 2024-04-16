@@ -18,7 +18,8 @@ const Navbar = () => {
           <NavLink to={url}>
             <div className="text-white text-base font-bold  font-['Barlow Condensed']  tracking-[2.70px] flex items-center   justify-between md:flex-col md:relative   md:h-24 ">
               <button
-                className=" md:m-auto lg:flex"
+                className=" md:m-auto lg:flex  hover:md:animate-pulse"
+                style={{ animationDuration: "1s" }}
                 onClick={() => setSelectedUrl(url)}
               >
                 <span className="md:hidden lg:flex text-base font-bold font-['Barlow Condensed'] tracking-[2.70px] ">
@@ -32,9 +33,9 @@ const Navbar = () => {
                 <div className="md:hidden w-1 h-[31px] bg-white" />
               )}
               {selectedUrl === url ? (
-                <div className="hidden md:block  w-[86px] md:h-[3px] md:bg-white " />
+                <div className="hidden md:block  w-[86px] md:h-[2px] md:bg-white " />
               ) : (
-                <div className="hidden md:block  w-[86px] md:h-[3px] opacity-10 " />
+                <div className="hidden md:block  w-[86px] md:h-[1px] md:bg-white opacity-20   " />
               )}
             </div>
           </NavLink>

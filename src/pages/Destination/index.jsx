@@ -35,10 +35,10 @@ const Destination = () => {
         mobile={destinationMobile}
       />
 
-      <div className=" pb-10 relative top-20 md:top-32 lg:top-30 ">
+      <div className=" pb-10  relative top-20 md:top-32 lg:top-30 ">
         <div>
           <Title />
-          <div>
+          <div className="">
             <Carousel
               setShowDataDestination={setShowDataDestination}
               sliderRef={sliderRef}
